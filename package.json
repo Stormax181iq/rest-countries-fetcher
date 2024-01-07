@@ -1,0 +1,14 @@
+{
+  "name": "rest-countries-simple-fetcher",
+  "version": "1.0.0",
+  "description": "A simple local website fetching the infos of a chosen country",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "stormax181iq",
+  "license": "ISC"
+}

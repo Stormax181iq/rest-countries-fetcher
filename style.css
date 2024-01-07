@@ -1,0 +1,87 @@
+:root {
+  --background-color: #7f4c50;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#search-area {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 1rem;
+  height: 4rem;
+  width: 16rem;
+  margin: 2rem;
+}
+
+#input-field {
+  border: none;
+  resize: none;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  padding: 1.3rem 0.2rem;
+  width: 14rem;
+  font-size: 1.1rem;
+}
+
+#search-btn {
+  border: none;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  background-color: white;
+}
+
+#search-btn:hover {
+  background-color: whitesmoke;
+}
+
+#search-btn:active {
+  background-color: lightgray;
+}
+
+#output-area {
+  background-color: white;
+  max-width: 90%;
+  margin: 1rem;
+}
+
+.country-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag {
+  max-width: 7rem;
+  max-height: 7rem;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.coat-of-arms {
+  max-width: 7rem;
+  max-height: 7rem;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.country {
+  width: 30rem;
+  padding: 2rem;
+  border-bottom: 1px dotted gray;
+  margin: 0.2rem;
+}
+
+.delete-country-btn {
+  margin: 1rem;
+}
